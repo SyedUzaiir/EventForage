@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/EventForage/static/css/main.1536acf5.css",
+    "main.js": "/EventForage/static/js/main.decfde88.js",
+    "index.html": "/EventForage/index.html",
+    "main.1536acf5.css.map": "/EventForage/static/css/main.1536acf5.css.map",
+    "main.decfde88.js.map": "/EventForage/static/js/main.decfde88.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1536acf5.css",
+    "static/js/main.decfde88.js"
+  ]
+}
