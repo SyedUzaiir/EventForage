@@ -1,8 +1,20 @@
-export default function Home() {
+import React from 'react';
+import Navbar from '../components/Navbar';
+import HeroSection from '../components/HeroSection';
+import Footer from '../components/Footer';
+
+const Home = () => {
   return (
-    <div className="text-center mt-20">
-      <h1 className="text-4xl font-bold">Welcome to EventForge 🎉</h1>
-      <p className="text-gray-600 mt-4">Your one-stop solution for event management and discovery.</p>
+    <div className="bg-white">
+      <Navbar />
+      <main>
+        <HeroSection />
+        {/* You can add more sections here like "Featured Events", "Testimonials" etc. */}
+      </main>
+      <Footer />
     </div>
   );
-}
+};
+
+export default Home;
+
